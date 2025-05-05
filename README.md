@@ -52,7 +52,7 @@ Aplikacja umożliwia:
    ```bash
    ./matrix_calculator
 
-4. Przykłady użycia
+## Przykłady użycia
 Menu programu:
    
 ```text
@@ -74,7 +74,7 @@ Wyjście
 ===========================
 ```
 
-5. Struktura plików
+## Struktura plików
 
 ```
 ├── README.md # opis projektu
