@@ -43,7 +43,7 @@ Aplikacja umożliwia:
    ```bash
    g++ Źródło.cpp Ui.cpp Matrix.cpp -o matrix_calculator
 
-2.Przygotowanie plików
+2. Przygotowanie plików
 - Utwórz matrix_sizes.txt, np.:
   3 3 3 3 3 3
 - Przygotuj macierzA.txt, macierzB.txt, macierzV.txt zgodnie z powyższymi wymiarami.
@@ -52,7 +52,7 @@ Aplikacja umożliwia:
    ```bash
    ./matrix_calculator
 
-Przykłady użycia
+4. Przykłady użycia
 Menu programu:
    
 ```text
@@ -74,10 +74,8 @@ Wyjście
 ===========================
 ```
 
-Struktura plików
-graphql
-Kopiuj
-Edytuj
+5. Struktura plików
+
 .
 ├── Źródło.cpp          # funkcja main
 ├── Ui.h / Ui.cpp       # klasa odpowiedzialna za menu użytkownika
