@@ -76,11 +76,15 @@ Wyjście
 
 5. Struktura plików
 
-.
-├── Źródło.cpp          # funkcja main
-├── Ui.h / Ui.cpp       # klasa odpowiedzialna za menu użytkownika
-├── Matrix.h / Matrix.cpp  # klasa Matrix i jej implementacja
-├── matrix_sizes.txt    # rozmiary macierzy
-├── macierzA.txt        # dane macierzy A
-├── macierzB.txt        # dane macierzy B
-└── macierzV.txt        # dane macierzy V
+```
+├── README.md # opis projektu
+├── Źródło.cpp # funkcja main
+├── Ui.h # nagłówek interfejsu użytkownika
+├── Ui.cpp # implementacja interfejsu
+├── Matrix.h # nagłówek klasy Matrix
+├── Matrix.cpp # implementacja klasy Matrix
+├── matrix_sizes.txt # wymiary macierzy
+├── macierzA.txt # dane macierzy A
+├── macierzB.txt # dane macierzy B
+└── macierzV.txt # dane macierzy pomocniczej V
+```
