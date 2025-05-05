@@ -51,13 +51,38 @@ Aplikacja umożliwia:
 3. **Uruchomienie**
    ```bash
    ./matrix_calculator
-   
-4. ## Menu
 
-1. Pokaż macierze  
-2. Dodaj macierze  
-3. Odejmij macierze  
-4. Transponuj macierze  
-5. Pomnóż macierze  
-6. Konstruktory i operatory  
-0. Wyjście
+Przykłady użycia
+Menu programu:
+   
+```text
+========== MENU ==========
+
+Pokaż macierze
+
+Dodaj macierze
+
+Odejmij macierze
+
+Transponuj macierze
+
+Pomnóż macierze
+
+Konstruktory i operatory
+
+Wyjście
+===========================
+```
+
+Struktura plików
+graphql
+Kopiuj
+Edytuj
+.
+├── Źródło.cpp          # funkcja main
+├── Ui.h / Ui.cpp       # klasa odpowiedzialna za menu użytkownika
+├── Matrix.h / Matrix.cpp  # klasa Matrix i jej implementacja
+├── matrix_sizes.txt    # rozmiary macierzy
+├── macierzA.txt        # dane macierzy A
+├── macierzB.txt        # dane macierzy B
+└── macierzV.txt        # dane macierzy V
