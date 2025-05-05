@@ -48,7 +48,16 @@ Aplikacja umożliwia:
   3 3 3 3 3 3
 - Przygotuj macierzA.txt, macierzB.txt, macierzV.txt zgodnie z powyższymi wymiarami.
 
-3. Uruchomienie
-
-   ```./matrix_calculator```
+3. **Uruchomienie**
+   ```bash
+   ./matrix_calculator
    
+4. ## Menu
+
+1. Pokaż macierze  
+2. Dodaj macierze  
+3. Odejmij macierze  
+4. Transponuj macierze  
+5. Pomnóż macierze  
+6. Konstruktory i operatory  
+0. Wyjście
