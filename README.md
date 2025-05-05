@@ -42,3 +42,13 @@ Aplikacja umożliwia:
 1. **Kompilacja**  
    ```bash
    g++ Źródło.cpp Ui.cpp Matrix.cpp -o matrix_calculator
+
+2.Przygotowanie plików
+- Utwórz matrix_sizes.txt, np.:
+  3 3 3 3 3 3
+- Przygotuj macierzA.txt, macierzB.txt, macierzV.txt zgodnie z powyższymi wymiarami.
+
+3. Uruchomienie
+  ```` ```bash
+   ./matrix_calculator ```
+   
